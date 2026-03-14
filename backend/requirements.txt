@@ -1,0 +1,58 @@
+# FastAPI Core
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-multipart==0.0.6
+
+# AI/ML Stack
+transformers==4.36.2
+torch==2.1.2
+scikit-learn==1.4.0
+numpy==1.26.3
+pandas==2.1.4
+
+# NLP & Text Processing
+nltk==3.8.1
+spacy==3.7.2
+sentencepiece==0.1.99
+
+# Database & Storage
+supabase==2.3.0
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.25
+
+# IPFS Integration
+ipfshttpclient==0.8.0a2
+requests==2.31.0
+
+# Web3 & Blockchain
+web3==6.15.0
+eth-account==0.11.0
+eth-utils==2.3.1
+
+# Security & Validation
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+
+# Utilities
+httpx==0.26.0
+aiofiles==23.2.1
+python-dateutil==2.8.2
+
+# CORS & Middleware
+python-cors==1.0.0
+
+# Logging & Monitoring
+loguru==0.7.2
+
+# Testing (Development)
+pytest==7.4.4
+pytest-asyncio==0.23.3
+httpx==0.26.0
+
+# Code Quality (Development)
+black==23.12.1
+flake8==7.0.0
+mypy==1.8.0

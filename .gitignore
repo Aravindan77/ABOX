@@ -1,0 +1,72 @@
+# Anti-Gravity Bug Bounty Platform - .gitignore
+
+# ============ Environment Variables ============
+.env
+.env.local
+.env.*.local
+*.env
+
+# ============ Dependencies ============
+node_modules/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============ Build Outputs ============
+dist/
+build/
+*.egg-info/
+.next/
+out/
+artifacts/
+cache/
+typechain-types/
+
+# ============ IDE & Editors ============
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============ Logs ============
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============ Testing ============
+coverage/
+.coverage
+.pytest_cache/
+.nyc_output/
+
+# ============ AI/ML Models ============
+models/*.bin
+models/*.pt
+models/*.h5
+models/*.pkl
+!models/.gitkeep
+
+# ============ IPFS ============
+.ipfs/
+
+# ============ Blockchain ============
+deployments/
+.openzeppelin/
+
+# ============ OS ============
+Thumbs.db
+.DS_Store
+
+# ============ Temporary Files ============
+tmp/
+temp/
+*.tmp
